@@ -1,9 +1,13 @@
 # Car-Sequencing problem solved with Constraint Programming :
 
 - Problem Description :
+
 ![pic!](images/ProductionLine.jpg)
+
 Cars in a production line can be configured with various options. A given option set forms a class of cars, so for each class there is a certain demand for a car.
+
 The problem comes down to the fact that we have a capacity constraint at the level of the production line: the maximum number of cars (q) with option (i) that can be produced on a sub-sequence of size (p).
+
 Our main goal is to arrange the sequence of all requested cars so that none of the capacity constraints are violated.
 See "Car Sequencing" pdf for more detaills.
 
@@ -13,4 +17,5 @@ See "Car Sequencing" pdf for more detaills.
 3) The options of a given car must conform to the class to which it belongs.
 
 - The Solution for the given problem :
+
 ![solved!](images/Solution.jpg)
